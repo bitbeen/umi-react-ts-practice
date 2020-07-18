@@ -4,7 +4,7 @@ import { formatMessage } from 'umi-plugin-locale';
 import Home from '@/pages/Home';
 export default function () {
   return (
-    <div className={styles.normal}>
+    <div className={styles.cointainer}>
       <Home></Home>
     </div>
   );
